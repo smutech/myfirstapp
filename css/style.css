@@ -114,11 +114,11 @@ li {}
 .jumbotron h1 {
   color: #333333;
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: .7rem;
 }
 
 .jumbotron p {
-  margin-top: 1rem;
+  /* padding-top: .5rem; */
 }
 /* JUMBOTRON END */
 
@@ -136,6 +136,32 @@ li {}
 .btn:hover {
   background-color: #f5f5f5;
   color: #333333;
+}
+
+.btn.btn-primary {
+  background-color: rgb(23, 99, 212);
+  color: #ffffff;
+  border: 1px solid rgb(23, 99, 192);
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-color: rgb(13, 89, 182);
+  color: #ffffff;
+  border: 1px solid rgb(03, 79, 182);
+}
+
+.btn.btn-success {
+  background-color: rgb(43, 153, 43);
+  color: #ffffff;
+  border: 1px solid rgb(43, 133, 43);
+}
+
+.btn.btn-success:hover,
+.btn.btn-success:focus {
+  background-color: rgb(33, 133, 33);
+  color: #ffffff;
+  border: 1px solid rgb(23, 123, 23);
 }
 /* BUTTON END */
 
