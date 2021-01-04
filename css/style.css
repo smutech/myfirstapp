@@ -69,6 +69,8 @@ form {
   width: 290px;
   max-width: 100%;
   padding: 1.5rem 1rem 0rem 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
 }
 
 form div {
